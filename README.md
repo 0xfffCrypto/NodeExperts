@@ -18,9 +18,21 @@
 
 ## 使用方法
 
-### 1. 下载脚本
+### 1. 下载脚本（一行搞定）
 
-将 `install_beboundless.sh` 文件下载到你的机器上。如果你是通过他人获取此脚本，请确保其来源可靠。
+在终端里直接复制、粘贴并回车即可：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/0xfffCrypto/NodeExperts/refs/heads/main/install_beboundless.sh -o install_beboundless.sh && chmod +x install_beboundless.sh
+```
+
+完成后当前目录会多出一个可执行文件 `install_beboundless.sh`，接下来执行：
+
+```bash
+./install_beboundless.sh
+```
+
+即可进入交互式安装流程。
 
 ### 2. 赋予执行权限
 
